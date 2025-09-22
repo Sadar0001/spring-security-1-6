@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">  <!-- Add this xmlns -->
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+</head>
+<body>
+<h1>This is html Dashboard</h1>
+<p>Your role: <span th:text="${#authentication.authorities}"></span></p>
+</body>
+</html>
